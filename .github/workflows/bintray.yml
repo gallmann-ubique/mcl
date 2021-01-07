@@ -2,7 +2,7 @@ name: Upload Android AAR to bintray
 
 on:
   push:
-    branches: [ master ]
+    branches: [ master, feature/android-jcenter-integration ]
 
 jobs:
   build:
