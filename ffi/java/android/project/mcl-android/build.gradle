@@ -79,6 +79,7 @@ ext.readPropertyWithDefault = { paramName, defaultValue ->
 }
 
 bintray {
+	override = true
 	user = readProperty('bintrayUser')
 	key = readProperty('bintrayApikey')
 	publications = ['sdkRelease']
